@@ -5,3 +5,4 @@ lib/Sledge/Plugin/SessionAutoCleanup.pm
 t/00_compile.t
 t/01_cleanup.t
 t/02_modperl.t
+t/lib/Sledge/TestPages.pm
