@@ -55,11 +55,17 @@ Sledge::Plugin::SessionAutoCleanup - auto-clean up old sessions
 
 =head1 DESCRIPTION
 
-Session cleanup is done in every C<SESSION_CLEANUP_INTERVAL> requests
-(roughly).
+不要になったセッションを、cronを使用することなく自動で消去するプラグイ
+ンです。セッションのGCはC<SESSION_CLEANUP_INTERVAL>回のリクエストごと
+(大体)におこなわれ、最終アクセスからC<SESSION_TIMEOUT>分が経過したセッ
+ションが消去されます。
 
 =head1 AUTHOR
 
-Tatsuhiko Miyagawa with Sledge devleopers.
+Tatsuhiko Miyagawa with Sledge development team.
+
+=head1 SEE ALSO
+
+None.
 
 =cut
