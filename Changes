@@ -1,0 +1,7 @@
+Revision history for Perl extension Sledge::Plugin::SessionAutoCleanup
+
+0.02  Mon Sep  2 15:58:37 JST 2002
+	- Set start value to int rand $interval
+
+0.01  Tue Aug 27 22:23:33 2002
+	- original version
